@@ -30,6 +30,7 @@ git push origin refs/tags/*:
 
 git push origin flood/pthread:flood/pthread:  push local branch to remote branch
 
+git clone git_path -b branch_name: download branch codes
 
 
 
