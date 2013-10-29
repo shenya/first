@@ -1,0 +1,45 @@
+
+/path/to/my/workspace
+
+git whatchanged : get information changed
+git add -A      : add all file changed
+git commit -m "xx": add commit info
+
+
+git reset 11xxxxxxxxxxx: go back to that commit
+git checkout -f : go back to codes for that commit
+
+
+git config (--global) user.name :
+git config (--global) user.email :
+
+git config --system alias.ci commit: 
+git config --global alias.ci commit:
+git config --global color.ui true:
+
+git tag v1: ??????
+
+git log --graph --oneline: find commit id
+git reset --hard HEAD^: bo back to parent commit
+
+git reflog show master | head -5: 
+git reset --hard master@{n}
+
+git tag -m "xx" tag_name:
+git push origin refs/tags/*:
+
+git push origin flood/pthread:flood/pthread:  push local branch to remote branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
